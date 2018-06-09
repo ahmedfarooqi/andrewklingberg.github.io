@@ -37,7 +37,21 @@ p {
     background: #ffffff;
     margin: 35px;
 }
-
+.image-title{
+text-align: center;
+font-size: 20px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light";	
+}
+ .image-caption {
+    font-family: helvetica;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    padding: 2px 0; 
+ }
+.sqs-block.image-block .image-caption-wrapper p {
+   text-align: center !important;
+ }
 
 .center {
     display: block;

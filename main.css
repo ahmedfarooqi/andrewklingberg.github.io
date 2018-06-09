@@ -19,9 +19,7 @@ p {
 	font-size: 20px;
 	color: #000000;
 }
-.border { 
-	border-width: 25px; border-color: black; border-style: solid; 
-} 
+
 
 .center {
     display: block;

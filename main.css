@@ -22,11 +22,11 @@ p {
 }
 
 .container{
-    border: 35px solid #ffffff;
+    border: 30px solid #ffffff;
     text-align: center;
 }
 .container2{
-    border: 5px solid #ffffff;
+    border: 0px solid #ffffff;
     text-align: center;
 }
 	

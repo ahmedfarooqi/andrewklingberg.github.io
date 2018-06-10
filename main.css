@@ -20,7 +20,7 @@ p {
 }
 
 .container{
-    border: 30px solid #ffffff;
+    border: 20px solid #ffffff;
     text-align: center;
 }
 .container2{
@@ -30,10 +30,10 @@ p {
 	
 .category{
     display: inline-block;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     background: #ffffff;
-    margin: 35px;
+    margin: 0px;
 }
 .override a {text-decoration:none}
 
@@ -41,7 +41,7 @@ p {
 .image-title{
 text-decoration: none!important;
 text-align: center;
-font-size: 25px;
+font-size: 20px;
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
 color: black;
 }

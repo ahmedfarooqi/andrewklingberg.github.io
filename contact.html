@@ -28,11 +28,12 @@
 
 <center>
  <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="projects.html">PROJECTS</a> | <a href="resume.html">RESUME</a> | <b>CONTACT</b> | <a href="https://github.com/andrewklingberg">GITHUB</a> | <a href="https://www.linkedin.com/in/andrew-klingberg">LINKEDIN</a>
-</center>
-	
-  	<h1 style="stylesheet;" align="center"> </h1>
+</center>	
+<h1 style="stylesheet;" align="center"> </h1>
+
 <main>
-	
+	<div class="container">
+  <link rel="stylesheet" href="form.css" align="center">	
 <form name="googleform" id="googleform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSc6oRYipA2VG0wEFGL4jm1y2G-ee78iS45atU_I4_k_iUmi6w/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
   Name:<br>
   <input type="text" name="entry.101429450" id="entry.101429450"><br>
@@ -44,16 +45,9 @@
   <input type="text" name="entry.765688388" id="entry.765688388"><br>
   <input type="submit" value="Submit">
 </form>
-
+</div>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-		<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
-  });
-</script>
+
 
 </main>
 </body>

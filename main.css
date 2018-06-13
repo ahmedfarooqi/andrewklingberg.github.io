@@ -23,6 +23,15 @@ p {
 	font-size: 20px;
 	color: #000000;
 }
+g{
+	
+}
+.category3{
+    display: inline-block;
+    width: 600px;
+    background: #ffffff;
+    margin: 0px;
+}
 
 img {
   width: auto ;
@@ -75,10 +84,9 @@ opacity: 0.4;
 }
 
 
-
-
-
-
+dublin{
+	
+}
 
 
 

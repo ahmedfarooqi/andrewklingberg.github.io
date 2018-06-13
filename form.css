@@ -24,6 +24,16 @@ body {
    color: #333;
 }
 
+textarea  
+{  
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue","Helvetica","Arial", "Lucida Grande", sans-serif; 
+   font-size: 14px;   
+}
+input 
+{  
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue","Helvetica","Arial", "Lucida Grande", sans-serif; 
+   font-size: 14px;   
+}
 
 
 .container {
@@ -42,6 +52,7 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
 	border: none;
 }
+.button{ text-align: center; }
 
 *{
     box-sizing: border-box;
@@ -61,13 +72,18 @@ label {
 }
 
 input[type=submit] {
+	width: 100%;
     background-color: #000000;
     color: white;
-    padding: 12px 20px;
+    padding: 12px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
+    float: center;
+}
+
+.left{
+	float:left;
 }
 
 input[type=submit]:hover {
@@ -80,23 +96,6 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-}
-
-.col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {

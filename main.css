@@ -90,7 +90,7 @@ img {
 	
 }
 .category5{
-    display: inline-block;
+    display:inline-block;
     width: 400px;
     height: 375px;
     background: #ffffff;
@@ -98,6 +98,26 @@ img {
 	align: center;
 	
 }
+.categorytitle{
+    display:flex;
+    width: 400px;
+    height: 375px;
+    background: #ffffff;
+    margin: 0px;
+	align: center;
+	
+}
+
+.category-background{
+   display:inline-block;
+    width: 400px;
+    height: 150px;
+    background: #ffffff;
+    margin: 0px;
+	align: center;
+	
+}
+	
 .override a {text-decoration:none}
 
 .image-title{

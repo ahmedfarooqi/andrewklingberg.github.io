@@ -14,6 +14,10 @@
 font-family: Apercu;
 }
 
+@font-face{src:url(Fonts/Apercu-Bold.ttf);
+font-family: ApercuBold;
+}
+
 @viewport{
 	zoom: 1.0;
 	width: extend-to-zoom;
@@ -51,6 +55,11 @@ p {
 	font-size: 20px;
 	color: #4D4D4D;
 }
+p3 {
+	font-family: ApercuBold;
+	font-size: 25px;
+	color: #000000;
+}
 
 title{
 	font-family: Apercu;
@@ -58,7 +67,7 @@ title{
 	color: #000000;
 }
 g{
-    font-family: Apercu; 
+    font-family: ApercuBold; 
 	color: #000080;
 	text-align: justify;
     text-justify: inter-word;

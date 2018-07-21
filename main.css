@@ -26,6 +26,8 @@ font-family: ApercuBold;
 	width: extend-to-zoom;
 	zoom: 1.0;
 }
+
+
 <--------------------------->
 input[type=submit]:hover {
     background-color: #474747;
@@ -54,25 +56,24 @@ p {
 	font-family: Apercu;
 	font-size: 20px;
 	color: #4D4D4D;
+
 }
+
 p3 {
 	font-family: ApercuBold;
 	font-size: 25px;
 	color: #000000;
 }
 
-title{
-	font-family: Apercu;
-	font-size: 20px;
-	color: #000000;
-}
 g{
     font-family: ApercuBold; 
 	color: #000080;
 	text-align: justify;
     text-justify: inter-word;
-	width:500px;
+	font-size: 25px;
+
 }
+
 .category3{
     display: inline-block;
     width: 500px;
@@ -144,6 +145,8 @@ img {
 }
 	
 .override a {text-decoration:none}
+.override menu {text-decoration:none}
+
 
 .image-title{
 text-decoration: none!important;

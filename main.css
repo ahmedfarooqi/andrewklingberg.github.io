@@ -60,7 +60,9 @@ body {
 
 h1 {
 	font-size: 50px;
-	color: #000000;
+	color: #000000;    
+	
+
 }
 
 p {
@@ -129,7 +131,7 @@ img {
 	   border: 0px solid #ffffff;
     display:inline-block;
     width: 275px;
-    
+ 
     background: #ffffff;
     margin: 0px;
 	align: center;

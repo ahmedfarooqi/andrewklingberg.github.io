@@ -33,6 +33,12 @@ font-family: ApercuBold;
 ::-moz-selection {
   background: #EFFF7E;
 }
+.fade {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 1;
+}
 <--------------------------->
 input[type=submit]:hover {
     background-color: #474747;
@@ -96,7 +102,7 @@ img {
 }
 
 .container{
-    border: 20px solid #ffffff;
+    border: 0px solid #ffffff;
     text-align: center;
 }
 
@@ -121,9 +127,10 @@ img {
 	
 }
 .category5{
+	   border: 0px solid #ffffff;
     display:inline-block;
-    width: 400px;
-    height: 375px;
+    width: 275px;
+    
     background: #ffffff;
     margin: 0px;
 	align: center;
@@ -140,6 +147,8 @@ img {
 }
 
 .category-background{
+	    border: 0px solid #ffffff;
+
    display:inline-block;
     width: 400px;
     height: 150px;

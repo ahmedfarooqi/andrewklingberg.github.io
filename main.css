@@ -40,10 +40,10 @@ font-family: CalibriBold;
 }
 
 ::selection {
-  background: #EFFF7E; 
+  background: #ffff00; 
 }
 ::-moz-selection {
-  background: #EFFF7E;
+  background: #ffff00;
 }
 .fade {
   margin: 50px;
@@ -56,7 +56,7 @@ input[type=submit]:hover {
     background-color: #474747;
 
 }html {
-	margin: 20px;
+	margin:0px;
 	background-color: #ffffff;
 }
 
@@ -70,7 +70,10 @@ body {
 h1 {	
 	font-size: 42px;
 	color: #000000;    
-	font-family: helv;
+	font-family: helv;    
+	
+	margin:0;
+
 }
 
 p {

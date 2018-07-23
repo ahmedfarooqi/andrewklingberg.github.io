@@ -158,20 +158,22 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
+		text-align: center;
    color: #313131;
 	font-family: 'opensans-bold', sans-serif;
-   font-weight: normal;
+   font-weight: normal; 
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit;}
 h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
 h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
-h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px;  align-content: center; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
 .subheader { }
 
-p { margin: 0 0 30px 0; }
+p { margin: 0 0 30px 0;	text-align: center;
+ }
 p img { margin: 0; }
 p.lead {
    font: 19px/36px 'opensans-light', sans-serif;
@@ -803,5 +805,10 @@ properly.
 }
 
 
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 

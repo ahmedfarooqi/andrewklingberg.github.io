@@ -39,6 +39,33 @@ font-family: CalibriBold;
 	zoom: 1.0;
 }
 
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 ::selection {
   background: #ffff00; 
 }
@@ -72,22 +99,21 @@ h1 {
 	font-size: 42px;
 	color: #000000;    
 	font-family: helv;    
-	
+	animation: 1s ease-out 0s 1 slideDown;
+
 	margin:0;
 
 }
 
 p {
+
 	font-family: Apercu;
 	font-size: 20px;
 	color: #4D4D4D;
+animation: 1s ease-out 0s 1 slideRight;
 }
 
-p3 {
-	font-family: ApercuBold;
-	font-size: 25px;
-	color: #000000;
-}
+
 
 g{
     font-family: CalibriBold; 

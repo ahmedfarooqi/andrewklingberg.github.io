@@ -1,4 +1,4 @@
- <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="main.css">
  @font-face {
     font-family: 'opensans-regular';
     src: url('fonts/opensans/OpenSans-Regular-webfont.eot');
@@ -133,7 +133,7 @@ img {
 .category5{
 	   border: 0px solid #ffffff;
     display:inline-block;
-    width: 275px;
+    width: 60%;
  
     background: #ffffff;
     margin: 0px;

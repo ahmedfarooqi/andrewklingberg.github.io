@@ -30,8 +30,11 @@ e. Others
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @font-face{font-family:HelveticaAndrew
-	;src:url("css/HelveticaNeue.ttf")}
-
+	;src:url("/css/HelveticaNeue.ttf")}
+@font-face{font-family:HelveticaBold
+	;src:url("/css/helvetica-neue-bold.ttf")}
+::-moz-selection { background: yellow; }
+::selection { background: yellow; }
 /* ------------------------------------------------------------------
 /* b. Reset
       Adapted from:

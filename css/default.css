@@ -29,6 +29,8 @@ e. Others
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
+@font-face{font-family:HelveticaAndrew
+	;src:url("css/HelveticaNeue.ttf")}
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -157,10 +159,10 @@ body {
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6 {
-		text-align: center;
+h1, h2, h3, h4, h5, h6,g {
+	text-align: center;
    color: #313131;
-	font-family: 'opensans-bold', sans-serif;
+	font-family: Helvetica;
    font-weight: normal; 
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit;}
@@ -300,6 +302,10 @@ a, a:visited {
 a:hover, a:focus { color: #313131; }
 p a, p a:visited { line-height: inherit; }
 
+center{
+	align-content: center;
+	align-text: center;
+}
 
 /*  4. List  --------------------------------------------------------- */
 

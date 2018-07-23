@@ -18,6 +18,9 @@ font-family: Apercu;
 font-family: ApercuBold;
 }
 
+@font-face{src:url(Fonts/HelveticaNeueBd.ttf);
+font-family: heln;
+}
 @viewport{
 	zoom: 1.0;
 	width: extend-to-zoom;
@@ -58,11 +61,12 @@ body {
 
 }
 
-h1 {
+
+
+h1 {	
 	font-size: 50px;
 	color: #000000;    
-	
-
+	font-family: heln;
 }
 
 p {
@@ -79,7 +83,7 @@ p3 {
 
 g{
     font-family: ApercuBold; 
-	color: #0000B8;
+	color: #000000;
 	text-align: justify;
     text-justify: inter-word;
 	font-size: 25px;
@@ -161,6 +165,7 @@ img {
 	
 .override a {text-decoration:none}
 .override menu {text-decoration:none}
+.override h1 {text-decoration:none}
 
 
 .image-title{
@@ -191,9 +196,3 @@ opacity: 0.4;
 transition: .3s ease;
 opacity: 0.4;
 }
-
-dublin{
-	
-}
-
-<------->

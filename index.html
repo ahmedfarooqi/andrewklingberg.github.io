@@ -182,21 +182,69 @@
          </div>
 </div>
 	</section>
-<div class="row add-bottom">
+ <section id="contact">
 
-<div class="twelve columns">
-		      <section id="contact" style="padding: 90px 0 72px; background: #fff;">
+         <div class="row section-head">
 
-            <h1>Contact</h1>
-            <hr>
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  </p>
+
+            </div>
 
          </div>
-</div>
-         
-         <hr />
 
-      </div> <!-- Row End-->
-   </section> 
+   
+<form name="googleform" id="googleform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSc6oRYipA2VG0wEFGL4jm1y2G-ee78iS45atU_I4_k_iUmi6w/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+        <b></b><br>
+	<label for="contactName">Name <span class="required">*</span></label>
+  <input type="text" name="entry.101429450" id="entry.101429450" placeholder="Your name"><br>
+	<br><b></b>
+	 <label for="contactEmail">Email <span class="required">*</span></label>
+  <input type="text" name="entry.1138506245" id="entry.1138506245" placeholder="Your email"><br>
+	<br><b></b>
+	<label for="contactSubject">Subject</label>
+  <input type="text" name="entry.461268504" id="entry.461268504" placeholder="Subject"><br>
+	<br><b></b>
+	<label for="contactMessage">Message <span class="required">*</span></label>
+  <textarea type="text" name="entry.765688388" id="entry.765688388" placeholder="Message" style="height:200px"></textarea><br><br>
+  <input type="submit" value="SUBMIT">
+	 <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+</form>
+</div>	
+	
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
 
    <!-- footer
    ================================================== -->

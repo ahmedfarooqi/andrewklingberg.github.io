@@ -1,4 +1,4 @@
-/*
+n/*
 =====================================================================
 *   Ceevee v1.0 Default Stylesheet
 *   url: styleshout.com
@@ -313,7 +313,8 @@ center{
 /*  4. List  --------------------------------------------------------- */
 
 ul, ol { margin-bottom: 24px; margin-top: 12px; }
-ul { list-style: none outside; }
+ul { list-style: none outside; background-color:#071d36;
+ }
 ol { list-style: decimal; }
 ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
 ul.square { list-style: square outside; }

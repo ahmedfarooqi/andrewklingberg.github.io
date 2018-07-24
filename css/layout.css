@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #071d36; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -928,7 +928,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #0D0D0D;
 }
 #contact button.submit {
 	text-transform: uppercase;

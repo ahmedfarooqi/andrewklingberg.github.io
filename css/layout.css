@@ -126,6 +126,7 @@ header .scrolldown a:hover { color: #800000; }
 	 padding: 0;
 	 border: none;
 	 outline: none;
+	background-color:#071d36;
 }
 
 /* nav-wrap */
@@ -971,7 +972,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #071d36;
 }
 
 footer .social-links li:first-child { margin-left: 0; }

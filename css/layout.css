@@ -126,7 +126,6 @@ header .scrolldown a:hover { color: #800000; }
 	 padding: 0;
 	 border: none;
 	 outline: none;
-	background-color:#071d36;
 }
 
 /* nav-wrap */
@@ -144,7 +143,7 @@ header .scrolldown a:hover { color: #800000; }
 .opaque { background-color: #333; }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+#nav-wrap > a.mobile-btn { display: none; background-color: #071d36;}
 
 ul#nav {
    min-height: 48px;

@@ -29,8 +29,8 @@ e. Others
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
-::-moz-selection { background: yellow; }
-::selection { background: yellow; }
+::-moz-selection { background:#ffd700; }
+::selection { background: #ffd700; }
 /* ------------------------------------------------------------------
 /* b. Reset
       Adapted from:

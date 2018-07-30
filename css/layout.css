@@ -41,7 +41,7 @@ header {
 }
 header2 {
    position: relative;
-   height: 500px;
+   height: 800px;
    min-height: 500px;
    width: 100%;
    background-size: cover !important;

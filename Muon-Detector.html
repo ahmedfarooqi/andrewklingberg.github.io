@@ -86,11 +86,25 @@
                   </p>
 				    <h3>Detector</h3>
                   <p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+					<img src="images/Muon1.JPG" alt="image not fond">
+					The main parts of this detector are the silicon
+photomultiplier (SiPM) printed circuit board (pictured left) and the main printed circuit board (pictured right). The OLED screen (pictured top center) connects to the main PCB, and displays the count number, uptime, and an line with length proportional
+to the calculated SiPM peak voltage of the last dectection. The SiPM PCB has a plastic scintillator attached to it (the object wrapped in black electrical tape).When a charged particle passes through the scintillator,
+it may release energy that is then absorbed and emitted as photons. When
+these photons hit the surface of the SiPM, a small current is created which is
+then amplified and shaped by the main PCB. If the signal is strong enough, the
+Arduino Nano that is attached to the main PCB measures the peak voltage and
+the time this signal was received. The micro-controller records this data directly
+to a computer via USB.					  	  
                   </p>
-				   	<img src="images/Muon1.JPG" alt="image not fond">
+				   <br><br>
 					<img src="images/Muon2.JPG" alt="image not fond">
+				   Here is a closer image of the main PCB. Amidst the various resistors and capacitors, you may notice the interesting device soldered at U2. This part is a rail to rail op-amp.
+				   				   <br><br>
+
 					<img src="images/Muon.gif" alt="image not fond">
+				   Above is the muon detector starting up.
+				   <br><br>
 
 				   <br>
                 <h3>Muon Detection Rate: Day vs. Night</h3>

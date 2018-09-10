@@ -36,6 +36,12 @@ time, mark, audio, video {
    vertical-align: baseline;
    background: transparent;
 }
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 form {
   align: center;

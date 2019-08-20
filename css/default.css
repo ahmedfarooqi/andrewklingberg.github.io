@@ -114,6 +114,13 @@ table {
    border-spacing: 0;
 }
 
+#particles-js {
+  height:100%;
+}
+#particles-js  > p {
+  position:absolute;
+  top:100px;
+}
 
 /* ------------------------------------------------------------------ */
 /* c. Default and Basic Styles

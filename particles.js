@@ -498,6 +498,7 @@ var pJS = function(tag_id, params){
 
 
   pJS.fn.particlesCreate = function(){
+    
     for(var i = 0; i < pJS.particles.number.value; i++) {
       pJS.particles.array.push(new pJS.fn.particle(pJS.particles.color, pJS.particles.opacity.value));
     }
@@ -637,8 +638,11 @@ var pJS = function(tag_id, params){
   pJS.fn.particlesDraw = function(){
 
     /* clear canvas */
-    pJS.canvas.ctx.clearRect(0, 0, pJS.canvas.w, pJS.canvas.h);
-
+    pJS.canvas.ctx.clearRect(0, 0, pJS.canvas.w, pJS.canvas.h);    
+		pJS.canvas.ctx.font = "bold "+(pJS.canvas.w/10)+"px sans-serif";
+    pJS.canvas.ctx.textAlign = "center";
+    pJS.canvas.ctx.fillText("Andrew Klingberg", pJS.canvas.w/2, pJS.canvas.h/2);
+    
     /* update each particles param */
     pJS.fn.particlesUpdate();
 
